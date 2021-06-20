@@ -1,0 +1,19 @@
+{
+    "name": "@topbar/top-bar-plugin",
+    "version": "1.0.0",
+    "description": "",
+    "author": "mdvprasad",
+    "license": "MIT",
+    "main": "./lib/components/TopBar/index.js",
+    "pwa-studio": {
+        "targets": {
+            "intercept": "intercept.js"
+        }
+    },
+    "peerDependencies": {
+        "@magento/pwa-buildpack": "*",
+        "@magento/venia-ui": "*",
+        "react": "~16.9.0",
+        "react-router-dom": "~5.1.0"
+    }
+}

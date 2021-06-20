@@ -1,0 +1,23 @@
+.root {
+    background-color: rgb(var(--venia-teal));
+    padding: 0.5rem;
+    color: rgb(142, 230, 43);
+    display: grid;
+    grid-template-columns: 25% 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+.moreText {
+    text-align: end;
+}
+
+.moreButton {
+    color: rgb(221, 46, 46);
+    margin-left: 0.5rem;
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    border: 1px solid rgb(90, 40, 40);
+    border-radius: 3px;
+    outline: none;
+}
